@@ -13,6 +13,29 @@ Under the hood, it:
 For the original repository, see [`chat_with_app` on GitHub](https://github.com/dhanushchalicheemala/chat_with_app).
 
 ---
+This project was developed as part of a graduate Capstone in Computational Data Science.
+
+---
+
+## Project Team
+
+Developed collaboratively by:
+
+- Anish A. Kale
+- Dhanush Chalichemala
+- Charan Reddy Nandyla
+---
+
+## Contributions - Anish A. Kale
+
+- Integrated Groq (Llama-3.3-70B) as a high-performance NL→SQL backend with dynamic backend switching.
+- Designed & refined schema-constrained prompt templates (SCHEMA_INFO contract) to enforce single-table SQL compliance and prevent hallucinated attributes.
+- Implemented SQL validation and post-processing safeguards to ensure PostGIS-safe query execution.
+- Optimized the geospatial visualization layer using PyDeck.
+- Conducted latency and correctness evaluation across rule-based, local LLM, and Groq backends.
+- Enabled NL to SQL conversion time and Database Query time to assess efficiency relative to local LLM and Groq backends
+
+---
 
 ## 1. Requirements
 
